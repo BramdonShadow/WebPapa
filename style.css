@@ -1,0 +1,807 @@
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header */
+
+header,.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #D32A2A;
+    height: 30px;
+}
+.head{
+    margin-left: 30px;
+}
+.celar{
+    margin-right: 10px;
+    margin-right: 25px;
+}
+
+/* Fin Header */
+/* Nav */
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #444444;
+    height: 100px;
+    box-sizing: border-box;
+}
+.navs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.navbar{
+
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding-left: 500px;
+
+}
+.navbar li{
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer
+}
+.navbar li:hover{
+    border: 1px solid white;
+}
+
+li{
+    color: white;
+}
+
+/* Fin Nav*/
+/* Portada */
+
+.imgPort{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/abogasfon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+.margPort{
+    margin-left: 350px;
+    padding-top: 125px;
+}
+.tilPort{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.contPort{
+    display: inline-block!important;
+    border: 2px white solid;
+    padding: 6px 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+span{
+    font-size: 20px;
+    font-size: 100%;
+}
+
+/* Fin Portada */
+/* Sec1 */
+
+.Sec1{
+    width: 100%;
+}
+.secPrin{
+    padding-top: 15px;
+    padding-bottom: 38px;
+    display: flex;
+    align-items: center;
+    margin: 0 5% 0 5%;
+}
+.margSec1{
+    margin-right: 3%;
+}
+
+/* Fin Sec1 */
+/* Sec2 */
+.Sec2{
+    width: 100%;
+    margin-bottom: 70px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.margSec2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contCv{
+    margin-right: 100px;
+}
+.contCv h1{
+    text-align: center;
+}
+.civil{
+    display: flex;
+}
+.civil ul li{ 
+    margin-left: 30px;
+    list-style: circle;
+}
+.civlli,.civlli2,.famili,.otros{
+    word-wrap: break-word;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 2em;
+}
+.facen h1{
+    text-align: center;
+}
+.facen ul li{
+    list-style: circle;
+}
+.sec2Sc2{
+    display: grid;
+    justify-content: center;
+}
+.sec2Sc2 ul li{
+    list-style: circle;
+}
+
+/* Fin Sec2*/
+/* Sec3 */
+
+.Sec3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+.augS3{
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #D32A2A;
+    padding: 2.6% 3% 3.4% 3%;
+}
+.contSec3{
+    padding-bottom: 20px;
+}
+.concSec3{
+    display: flex;
+    justify-content: center;
+}
+.contacSec3{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+    font-size: 18px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase!important;
+}
+
+/* Fin Sec3 */
+/* Fot infoContac*/
+
+.agusContFot{
+    width: 100%;
+    display: flex;
+    padding-bottom: 44px;
+}
+.infoContac{
+    margin-right: 8%;
+    width: 46%;
+}
+.contInfot{
+    background-color: #444444;
+    display: flex;
+    padding-top: 80px!important;
+    padding-right: 90px!important;
+    padding-bottom: 80px!important;
+    padding-left: 20%!important;
+    margin-top: -60px!important;
+    width: 100%;
+    box-sizing: border-box;
+}
+.agusCHNO{
+    color: white;
+    margin-right: 20px;
+}
+.marginConFot{
+    margin-bottom: 31px;
+
+}
+h5{
+    font-size: 15px;
+}
+.areaPartice{
+    color: white;
+}
+.areaPartice ul li{
+    cursor: pointer;
+    color: white;
+    word-wrap: break-word;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    line-height: 2em;
+}
+li{
+    color: #000;
+    margin-left: 0px;
+    list-style:none;
+
+}
+ul {
+    padding-left: 0px;
+}
+
+.linkInfot{   
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #565555;
+}
+.socialLink{
+    text-align: center;
+}
+.socialLink li{
+    display: inline-block;
+    text-align: center;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 4px!important;
+}
+.icon1Fot, .icon2Fot, .icon3Fot{
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    width: auto;
+    height: auto;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #444444!important;
+}
+.icon1Fot{
+    content: url(img/face.png);
+}
+.icon2Fot{
+    content: url(img/wasap.png);
+}
+.icon3Fot{
+    content: url(img/insta.png);
+}
+.goMap a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.goMap a:hover{
+    border: 0.5px solid white;
+}
+/* Fin Fot infoContac*/
+/* Fot Contac*/
+
+.Contac{
+    display: flex;
+    justify-content: center;
+}
+.contContac{
+    justify-content: center;
+    padding-top: 48px;
+}
+.datos{
+    display: flex;
+}
+.label1{
+    float: left;
+    background-color: white;
+}
+label {
+    display: none;
+    cursor: default;
+}
+.confiImput{
+    font-size: 15px;
+    line-height: 1.9em;
+    color:black;
+    background-color: white;
+    border-width: 0;
+    border-radius: 0;
+    padding: 16px;
+    margin: 0;
+    width: 300px;
+} 
+.nomFot{
+    float: left; 
+    border-radius: 5px;
+}
+.gmails{
+    float: left;
+    padding-left: 14px;
+    border-radius: 5px;
+}
+.confiImput{
+    border: 2px solid black;
+}
+.textCaso{
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+textarea{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.9em;
+    min-height: 100px;
+    display: block;
+    background-color: white;
+    color:black;
+    width: 646px;
+    border-width: 0;
+    border-radius: 0;
+}
+.forms::after{
+   visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.butFot{
+    float: right;
+    text-align: right;
+    display: flex;
+    margin-bottom: 5px;
+}
+.envDat{
+    color: white;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    line-height: 1.7em;
+    border: 2px solid gray ;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: gray;
+}
+@media (min-width: 500px) and (max-width: 980px){
+    header, .head{
+        height: 80px;
+        font-size: 35px;
+        justify-content: center;
+    }
+    .celar img, .gmail img{
+        height: 35px;
+    }
+
+    nav{
+        height: 206px;
+    }
+    .navs{
+        display: flex;
+        justify-content: center ;
+    }
+    .logo a img{
+        height: 200px;
+    }
+    .logo{
+        margin-right: 40px;
+    }
+    .navbar{
+        padding-left: 0px;
+        display: grid;
+        align-items: center;
+    }
+    .navbar li{
+        margin-right: 0px;
+        font-size: 28px;
+    }
+    .iniclink, .ejLink{
+        margin-bottom: 5px;
+    }
+
+    .imgPort{
+        height: 1300px;
+        box-sizing: border-box;
+    }
+    .margPort{
+        margin-left: 0;
+        padding-top: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .marPt{
+        margin-top: 400px;
+    }
+    .tilPort{
+        margin: 0;
+        font-size: 100px;
+    }
+    .margPort span{
+        font-size: 33px;
+    }
+    .contPort{
+        border: 4px white solid;
+        padding: 10px 25px;
+        font-size: 40px;
+    }
+    
+    .secPrin h1{
+        font-size: 50px;
+        margin: 0;
+        padding: 40px 0;
+    }
+    .textS1{
+        margin: 0 40px 0 40px;
+        font-size: 16px;
+   }
+    .secPrin{
+        padding-top: 24px;
+        padding-bottom: 50px;
+        font-size: 6px;
+        display: grid;
+    }  
+    .sec1Log{
+        display: flex;
+        justify-content: center;
+    }
+    .sec1Log a img{
+        height: 500px;
+    }
+
+    
+    .Sec2 h2 {
+        font-size: 70px;
+    }
+    .contSecs2{
+        display: grid;
+    }
+    .contCv h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .facen h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .margSec2{
+        display: flex;
+        justify-content: center;
+        margin: 0 30px 0 30px;
+    }
+    .civil ul li, .facen ul li{ 
+        margin-left: 30px;
+        margin-bottom: 12px;
+        list-style: circle;
+    }
+    .otros{
+        list-style-position: outside;
+        word-wrap: break-word;
+        font-family: 'Rubik', sans-serif;
+        font-size: 10px;
+    }
+    .civlli,.civlli2,.famili{
+        list-style-position: outside;
+        word-wrap: break-word;
+        font-family: 'Rubik', sans-serif;
+        font-size: 2vw;
+        line-height: 1em;
+    }
+    .civlli2{
+       margin-top: 0px;
+    }
+    .civlli{
+        margin-bottom: 0px;
+    }
+    .contCv{
+        margin-right: 0px;
+    }
+    .civil{
+        display: grid;
+    }
+    .facen{
+        margin-left: 60px;
+    }
+
+    .Sec3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .augS3{
+        margin: 0 80px 0 80px;
+    }
+    .contSec3 h2{
+        font-size: 40px;
+    }
+    .textS3{
+        font-size: 30px;
+    }
+    .contacSec3{
+        border: 7px white solid;
+        
+        font-size: 35px;
+    }
+    
+    .agusCHNO div div h5 {
+        font-size: 25px;
+        margin: 25px 0 25px 0;
+    }
+    .agusCHNO div div p, .agusCHNO div div a{
+        font-size: 20px;
+    }
+    .areaPartice h5{
+        font-size: 25px;
+        margin: 25px 0 25px 0;
+    }
+    .agusContFot{
+        display: grid;
+    }
+    .infoContac{
+        width: 100%;
+    }
+    .contInfot{
+        padding-right: 80px!important;
+        padding-left: 80px!important;
+    }
+    .agusCHNO{
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .areaPartice ul li{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .contInfot{
+        display: grid;
+    }
+    .icon1Fot, .icon2Fot{
+        margin-right: 60px;
+    }
+    .icon1Fot, .icon2Fot, .icon3Fot{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .contContac h2{
+        font-size: 70px;
+    }
+    .envFot{
+        margin: 0 60px 0 60px;
+    }
+    .nomFot{
+        margin-bottom: 0;
+    }
+    .datos{
+        display: grid;
+    }
+    .gmails{
+        padding-left: 0;
+    }
+    .confiImput{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 35px;
+    }
+    textarea{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 35px;
+        min-height: 300px;
+    }
+    .butFot{
+        float: left;
+        text-align: left;
+    }
+    .envDat{
+        font-size: 35px;
+    }
+}
+@media (min-width: 981px) and (max-width: 1200px){
+    .navbar{
+        padding-left: 200px;
+    }
+    .margPort{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secPrin{
+        padding-bottom: 30px;
+    }
+    .Sec1 h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .textS1{
+        margin: 0 9% 0 9%;
+    }
+
+    .margSec2{
+        margin: 0 5% 0 5%;
+    }
+    .contCv{
+        margin-right: 80px;
+    }
+    .contCv h1, .facen h1{
+        font-size: 27px;
+    }
+
+    .augS3{
+        margin: 0 7% 0 7%;
+    }
+
+    .agusContFot{
+        display: flex;
+    }
+    .infoContac{
+        margin-right: 7%;
+    }
+    .contInfot{
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+    }
+    .contContac h2{
+        font-size: 30px;
+    }
+    .socialLink{
+        margin: 0;
+    }
+    .confiImput{
+        width: 192px;
+    }
+    textarea{
+        width: 462px;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+    .textS1{
+        margin: 0 9% 0 9%;
+    }
+    .margSec2{
+        margin: 0 5% 0 5%;
+    }
+    .augS3{
+        margin: 0 7% 0 7%;
+    }
+    .infoContac{
+        margin-right: 7%;
+    }
+    .contInfot{
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+    .contContac h2{
+        font-size: 30px;
+    }
+    .socialLink{
+        margin: 0;
+    }
+    .confiImput{
+        width: 220px;
+    }
+    textarea{
+        width: 518px;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1400px){
+    .textS1{
+        margin: 0 9% 0 9%;
+    }
+    .margSec2{
+        margin: 0 5% 0 5%;
+    }
+    .augS3{
+        margin: 0 7% 0 7%;
+    }
+    .infoContac{
+        margin-right: 7%;
+    }
+    .contInfot{
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+    .contContac h2{
+        font-size: 30px;
+    }
+    .socialLink{
+        margin: 0;
+    }
+    .confiImput{
+        width: 240px;
+    }
+    textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }   
+}
+@media (min-width: 1401px) and (max-width: 1500px){
+    .textS1{
+        margin: 0 9% 0 9%;
+    }
+    .margSec2{
+        margin: 0 5% 0 5%;
+    }
+    .augS3{
+        margin: 0 7% 0 7%;
+    }
+    .infoContac{
+        margin-right: 7%;
+    }
+    .contInfot{
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+    .contContac h2{
+        font-size: 30px;
+    }
+    .socialLink{
+        margin: 0;
+    }
+    .confiImput{
+        width: 270px;
+    }
+    textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 1500px) and (max-width: 1700px) {
+    .textS1{
+        margin: 0 8% 0 8%;
+    }
+    .margSec2{
+        margin: 0 4% 2% 4%;
+    }
+    .augS3{
+        margin: 0 6% 0 6%;
+    }
+    .infoContac{
+        margin-right: 7%;
+    }
+}
+@media (min-width: 2560px) {
+    
+    header, .head{
+        height: 60px;
+        font-size: 30px;
+    }
+    .celar img, .gmail img{
+        height: 30px;
+    }
+    
+}
